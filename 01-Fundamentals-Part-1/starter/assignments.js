@@ -1,7 +1,7 @@
 // Values and Varibales
 
-let country = "Georgia";
-let continent = "Europe";
+const country = "Georgia";
+const continent = "Europe";
 let population = 5;
 
 console.log(country);
@@ -10,8 +10,8 @@ console.log(population);
 
 // Data Types
 
-let isIsland = false;
-let language;
+const isIsland = false;
+const language = "Georgian";
 
 console.log(typeof isIsland);
 console.log(typeof population);
