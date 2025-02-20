@@ -55,4 +55,10 @@ let age = 30;
 age = 31;
 
 const birthYear = 1991;
-birthYear = 1990;
+// birthYear = 1990;
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Saghinadze";
+console.log(lastName);
