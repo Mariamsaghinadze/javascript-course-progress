@@ -9,6 +9,7 @@ console.log(continent);
 console.log(population);
 
 // Data Types
+// let, const and var
 
 const isIsland = false;
 const language = "Georgian";
