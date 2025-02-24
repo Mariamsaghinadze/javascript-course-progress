@@ -42,3 +42,11 @@ console.log(description);
 
 const description1 = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description1);
+
+if (population < averagePopulation) {
+  console.log(
+    `Georgia's population is ${
+      averagePopulation - population
+    } million below everage`
+  );
+}
