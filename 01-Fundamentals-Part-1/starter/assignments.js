@@ -18,3 +18,22 @@
 // console.log(typeof population);
 // console.log(typeof country);
 // console.log(typeof language);
+
+// // Basic Operators
+
+// console.log(population / 2);
+// console.log(population++);
+// const finlandPopulation = 6;
+// console.log(population > finlandPopulation);
+// const averagePopulation = 33;
+// console.log(population < averagePopulation);
+// const description =
+//   country +
+//   " is in " +
+//   continent +
+//   ", and its " +
+//   population +
+//   " million people speak " +
+//   language;
+
+// console.log(description);
