@@ -219,26 +219,66 @@
 
 // Boolean logic
 
-const hasDriversLicense = true;
-const hasGoodVision = true;
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
-// if (shouldDrive) {
+// // if (shouldDrive) {
+// //   console.log("Sarah can drive!");
+// // } else {
+// //   console.log("Sarah cannot drive!");
+// // }
+
+// const isTired = true;
+// console.log(hasDriversLicense || hasGoodVision || isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
 //   console.log("Sarah can drive!");
 // } else {
 //   console.log("Sarah cannot drive!");
 // }
 
-const isTired = true;
-console.log(hasDriversLicense || hasGoodVision || isTired);
+const day = "monday";
 
-if (hasDriversLicense && hasGoodVision && !isTired) {
-  console.log("Sarah can drive!");
+switch (day) {
+  case "monday":
+    console.log("Plan course structure");
+    console.log("Its monday");
+    break;
+  case "tuesday":
+    console.log("Prepate theory videos");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("Write code examples");
+    break;
+  case "friday":
+    console.log("Record videos");
+    break;
+  case saturday:
+  case sunday:
+    console.log("Enjoy the weekend");
+    break;
+  default:
+    console.log("Not a valid day");
+}
+
+if (day === "monday") {
+  console.log("Plan course structure");
+  console.log("Its monday");
+} else if (day === "tuesday") {
+  console.log("Prepate theory videos");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("Write code examples");
+} else if (day === friday) {
+  console.log("Record videos");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("Enjoy the weekend");
 } else {
-  console.log("Sarah cannot drive!");
+  console.log("Not a valid day");
 }
