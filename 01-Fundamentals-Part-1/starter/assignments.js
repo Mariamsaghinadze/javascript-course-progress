@@ -59,14 +59,24 @@
 
 //Equality Operators : == vs. ===
 
-const numNeighbours = Number(
-  prompt("How many neighbour countries does your country have?")
-);
+// const numNeighbours = Number(
+//   prompt("How many neighbour countries does your country have?")
+// );
 
-if (numNeighbours === 1) {
-  console.log("Only 1 border!");
-} else if (numNeighbours > 1) {
-  console.log("More than 1 border");
+// if (numNeighbours === 1) {
+//   console.log("Only 1 border!");
+// } else if (numNeighbours > 1) {
+//   console.log("More than 1 border");
+// } else {
+//   console.log("No borders!");
+// }
+
+const language = "english";
+const population = 5;
+const isIsland = false;
+
+if ((language === "english", population < 50 && !isIsland)) {
+  console.log("You should live in Georgia!");
 } else {
-  console.log("No borders!");
+  console.log("Georgia does not meet your criteria.");
 }
