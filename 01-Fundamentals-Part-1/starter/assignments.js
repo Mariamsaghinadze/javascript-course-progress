@@ -1,85 +1,81 @@
-// // Values and Varibales
+// Values and Varibales
 
-// const country = "Georgia";
-// const continent = "Europe";
-// let population = 5;
+const country = "Georgia";
+const continent = "Europe";
+let population = 5;
 
-// console.log(country);
-// console.log(continent);
-// console.log(population);
+console.log(country);
+console.log(continent);
+console.log(population);
 
-// // Data Types
-// // let, const and var
+// Data Types
+// let, const and var
 
-// const isIsland = false;
-// const language = "Georgian";
+const isIsland = false;
+const language = "Georgian";
 
-// console.log(typeof isIsland);
-// console.log(typeof population);
-// console.log(typeof country);
-// console.log(typeof language);
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);
 
-// // Basic Operators
+// Basic Operators
 
-// console.log(population / 2);
-// console.log(population++);
-// const finlandPopulation = 6;
-// console.log(population > finlandPopulation);
-// const averagePopulation = 33;
-// console.log(population < averagePopulation);
-// const description =
-//   country +
-//   " is in " +
-//   continent +
-//   ", and its " +
-//   population +
-//   " million people speak " +
-//   language;
+console.log(population / 2);
+console.log(population++);
+const finlandPopulation = 6;
+console.log(population > finlandPopulation);
+const averagePopulation = 33;
+console.log(population < averagePopulation);
+const description =
+  country +
+  " is in " +
+  continent +
+  ", and its " +
+  population +
+  " million people speak " +
+  language;
 
-// console.log(description);
+console.log(description);
 
-// // Strings and template literals
+// Strings and template literals
 
-// const description1 = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
-// console.log(description1);
+const description1 = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+console.log(description1);
 
-// if (population < averagePopulation) {
-//   console.log(
-//     `Georgia's population is ${
-//       averagePopulation - population
-//     } million below everage`
-//   );
-// }
+if (population < averagePopulation) {
+  console.log(
+    `Georgia's population is ${
+      averagePopulation - population
+    } million below everage`
+  );
+}
 
-// console.log("9" - "5"); // -> 4
-// console.log("19" - "13" + "17"); // -> '617'
-// console.log("19" - "13" + 17); // -> 23
-// console.log("123" < 57); // -> false
-// console.log(5 + 6 + "4" + 9 - 4 - 2); // -> 1143
+console.log("9" - "5"); // -> 4
+console.log("19" - "13" + "17"); // -> '617'
+console.log("19" - "13" + 17); // -> 23
+console.log("123" < 57); // -> false
+console.log(5 + 6 + "4" + 9 - 4 - 2); // -> 1143
 
 //Equality Operators : == vs. ===
 
-// const numNeighbours = Number(
-//   prompt("How many neighbour countries does your country have?")
-// );
+const numNeighbours = Number(
+  prompt("How many neighbour countries does your country have?")
+);
 
-// if (numNeighbours === 1) {
-//   console.log("Only 1 border!");
-// } else if (numNeighbours > 1) {
-//   console.log("More than 1 border");
-// } else {
-//   console.log("No borders!");
-// }
+if (numNeighbours === 1) {
+  console.log("Only 1 border!");
+} else if (numNeighbours > 1) {
+  console.log("More than 1 border");
+} else {
+  console.log("No borders!");
+}
 
-// const language = "english";
-// const population = 5;
-// const isIsland = false;
-
-// if ((language === "english", population < 50 && !isIsland)) {
-//   console.log("You should live in Georgia!");
-// } else {
-//   console.log("Georgia does not meet your criteria.");
-// }
+if ((language === "english", population < 50 && !isIsland)) {
+  console.log("You should live in Georgia!");
+} else {
+  console.log("Georgia does not meet your criteria.");
+}
 
 switch (language) {
   case "chinese":
@@ -101,3 +97,7 @@ switch (language) {
   default:
     console.log("Great language too...");
 }
+
+console.log(
+  `Georgia's population is ${population > 33 ? "above" : "below"} average`
+);
