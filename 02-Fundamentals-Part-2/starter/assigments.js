@@ -21,12 +21,17 @@ const percentageChina = percentageOfWorld1(1441);
 
 console.log(percantageGeorgia, percantagePortugal, percentageChina);
 
-const percentagePopulation = function (population) {
-  return (population / populationWorld) * 100;
-};
+// const percentagePopulation = function (population) {
+//   return (population / populationWorld) * 100;
+// };
 
-console.log(
-  percentagePopulation(5),
-  percentagePopulation(10),
-  percentagePopulation(1441)
-);
+// console.log(
+//   percentagePopulation(5),
+//   percentagePopulation(10),
+//   percentagePopulation(1441)
+// );
+
+const percentagePopulation = (population) =>
+  (population / populationWorld) * 100;
+
+console.log(percentagePopulation(4000));
